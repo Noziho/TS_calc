@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #f1f1f1;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc-container {
+  width: 70%;
+  min-height: 50rem;
+  background: #333333;
+  padding: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  button {
+    padding: 1rem;
+    margin: 1rem;
+    width: 30%;
+  }
+}
+
+#inputContainer {
+  width: 100%;
+  input {
+    width: 100%;
+  }
+}
