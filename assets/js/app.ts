@@ -61,7 +61,9 @@ inputEqual.addEventListener("click", (e: MouseEvent) => {
         inputElement.value = (firstNumber * secondNumber).toString();
     }
     else if(symbol === "/") {
-        inputElement.value = (firstNumber / secondNumber).toString();
+        if (firstNumber > 0 && secondNumber > 0){
+            inputElement.value = (firstNumber / secondNumber).toString();
+        }
     }
 })
 
